@@ -7,7 +7,14 @@ from artwork import *
 
 #   Main Game Loop
 while True:
-    linear_check(1)
+    train = 8
+    score = 0
+    if score >= train:
+        break
+    linear_check(train)
+    score += 7
+    print(score)
+
 
 
 

@@ -93,8 +93,6 @@ def linear_check(training):
                 score = 0
                 print(f'Wrong! The Correct Answer is "Sol". Streak back to {score}.\n')
 
-        # return score
-
 
 #   Simple Score Checking and Ending
 def score_check(score, training):
@@ -103,5 +101,6 @@ def score_check(score, training):
         print(f'''You've successfully gathered an impressive score of: {score}.\n''')
         print(f'{model_see_you}')
         print(f'{model_artist}')
+        print('\n\n\n')       # Temporary until we can exit the while loop
         return True
     return False
