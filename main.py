@@ -1,10 +1,17 @@
 from scales import *
 from linear_check import *
+from artwork import *
 #   TODO // App Logic
 #   Check if True
 
+
+#   Main Game Loop
 while True:
-    linear_check()
+    linear_check(1)
+
+
+
+
 
 
 
