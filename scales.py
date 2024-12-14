@@ -1,6 +1,4 @@
 #   The Scales
-
-
 #   American Scale //
 en_scale = ['A',
             'B',
@@ -10,10 +8,9 @@ en_scale = ['A',
             'F',
             'G'
             ]
-
 #   Romanian Scale //
 ro_scale = ['La',
-            'Sol',
+            'Si',
             'Do',
             'Re',
             'Mi',
