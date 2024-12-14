@@ -3,7 +3,8 @@ from linear_check import *
 #   TODO // App Logic
 #   Check if True
 
-linear_check()
+while True:
+    linear_check()
 
 
 
